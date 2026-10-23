@@ -55,9 +55,9 @@ SITE.NOME_PARTE_2 = "FILM";                    // aparece em AZUL CIANO igual à
 SITE.SUBTITULO = "Películas de Controle Solar"; // aparece embaixo do nome
 
 // Os 3 destaques juntos no topo do site
-SITE.DESTAQUE_1 = "Corte sob medida computadorizado";
+SITE.DESTAQUE_1 = "Corte sob medida";
 SITE.DESTAQUE_2 = "Garantia até 10 anos";
-SITE.DESTAQUE_3 = "Avaliação 5 estrelas";
+SITE.DESTAQUE_3 = "Avaliações sinceras";
 
 
 /* ---------------------------------------------------------------------
