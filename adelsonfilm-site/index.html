@@ -6,7 +6,7 @@
   <title>AdelsonFilm — Películas de Controle Solar · Garanhuns PE</title>
   <meta name="description" content="AdelsonFilm — Películas de Controle Solar em Garanhuns, PE. Películas Automotivas (Carbono, Cerâmica), Residenciais (Preta, Espelhada, Jateado, Leitoso) e Kit de Proteção (Soleira, Multimídia, Canto de Porta). Corte computadorizado e garantia de até 10 anos.">
   <meta name="theme-color" content="#06070a">
-  <link rel="icon" type="image/svg+xml" href="fotos/logo.svg">
+  <link rel="icon" type="image/png" href="fotos/logo-af-completa.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,800;1,900&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1862,6 +1862,13 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible { outline:2px soli
       .subcat-slider .lc-pill-top { max-width: calc(100% - 24px); white-space: normal; }
       .subcat-slider .lc-warranty { max-width: calc(100% - 24px); white-space: normal; }
     }
+    /* Enquadra a logo completa sem as margens transparentes excedentes. */
+    img[src="fotos/logo-af-completa.png"] {
+      aspect-ratio: 1.65;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+    }
   </style>
 </head>
 <body class="loading">
@@ -1884,7 +1891,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible { outline:2px soli
       <span>CONTROLE SOLAR & PROTEÇÃO</span>
     </div>
     <div class="loader-center">
-      <img src="fotos/logo.svg" alt="AdelsonFilm" class="loader-logo" onerror="this.src='fotos/logo.png'">
+      <img src="fotos/logo-af-completa.png" alt="AdelsonFilm" class="loader-logo">
       <div class="loader-num"><span id="ldnum">000</span><small>%</small></div>
     </div>
     <div class="loader-top">
@@ -1897,7 +1904,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible { outline:2px soli
   <!-- BARRA FLUTUANTE DE VIDRO (APARECE AO ROLAR) -->
   <nav class="floating-nav" id="floating-nav" aria-label="Navegação rápida">
     <a href="#topo" class="fn-brand">
-      <img src="fotos/logo.svg" alt="Logo AF" onerror="this.src='fotos/logo.png'">
+      <img src="fotos/logo-af-completa.png" alt="Logo AF">
       <span class="fn-word"><span class="y" data-t="NOME_PARTE_1">ADELSON</span><span class="c" data-t="NOME_PARTE_2">FILM</span></span>
     </a>
     <div class="fn-links">
@@ -1926,7 +1933,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible { outline:2px soli
       <!-- Palco Central com a Logo Grande + Tipografia da Fachada -->
       <div class="brand-hero-center">
         <div class="logo-pedestal">
-          <img src="fotos/logo.svg" alt="Logo AdelsonFilm AF" class="hero-logo-giant" onerror="this.src='fotos/logo.png'">
+          <img src="fotos/logo-af-completa.png" alt="Logo AdelsonFilm AF" class="hero-logo-giant">
         </div>
 
         <h1 class="facade-wordmark">
